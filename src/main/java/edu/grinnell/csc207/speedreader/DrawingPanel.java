@@ -1,4 +1,4 @@
-
+package edu.grinnell.csc207.speedreader;
 
 /**
 The DrawingPanel class provides a simple interface for drawing persistent

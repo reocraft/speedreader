@@ -5,15 +5,13 @@
   <groupId>edu.grinnell.csc207</groupId>
   <artifactId>speedreader</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>demo</module>
-  </modules>
+  <packaging>jar</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <exec.mainClass>edu.grinnell.csc207.speedreader.SpeedReader</exec.mainClass>
+    <exec.args>example.txt 640 480 20 100</exec.args>
     <!-- Make sure the release version below is consistent with your version of Java! -->
-    <maven.compiler.release>21</maven.compiler.release>
+    <maven.compiler.release>21-</maven.compiler.release>
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
   </properties>
