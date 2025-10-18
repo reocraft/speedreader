@@ -9,6 +9,7 @@ Visual Studio Code 1.105.1
 When running the program:
 Format:
 mvn exec:java -Dexec.args="filename width height font_size wpm"
+Tested with: mvn exec:java -Dexec.args="excerpt_1.txt 640 480 15 100"
 
 
 Usability Testing:
